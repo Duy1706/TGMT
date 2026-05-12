@@ -1,14 +1,12 @@
 venv/
 __pycache__/
 
-weights/
-datasets/
-data/
-
 *.pth
 *.pt
 *.h5
-*.ckpt
 
-*.zip
-*.rar
+data/*
+weights/*
+
+!data/README.md
+!weights/README.md
